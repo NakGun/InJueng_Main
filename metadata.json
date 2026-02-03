@@ -1,0 +1,7 @@
+{
+  "name": "인정E&C Premium Web",
+  "description": "Professional air conditioning and building sanitation cleaning service website with a modern luxury aesthetic, featuring a dark theme with purple accents and an integrated admin dashboard.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
