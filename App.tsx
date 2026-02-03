@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Menu, X, Instagram, Facebook, Mail, Phone, MapPin, LayoutDashboard, Home, Info, Briefcase, Image as ImageIcon, MessageSquare, ChevronRight, Loader2 } from 'lucide-react';
-import { INITIAL_CONFIG, INITIAL_SERVICES, INITIAL_PORTFOLIO, INITIAL_TESTIMONIALS } from './constants';
-import { SiteConfig, ServiceItem, PortfolioItem, Testimonial } from './types';
+import { INITIAL_CONFIG, INITIAL_SERVICES, INITIAL_PORTFOLIO, INITIAL_TESTIMONIALS } from './constants.tsx';
+import { SiteConfig, ServiceItem, PortfolioItem, Testimonial } from './types.ts';
 
 // Components
 const Navbar = ({ companyName }: { companyName: string }) => {
