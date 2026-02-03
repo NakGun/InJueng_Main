@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Menu, X, Instagram, Facebook, Mail, Phone, MapPin, LayoutDashboard, Home, Info, Briefcase, Image as ImageIcon, MessageSquare, ChevronRight, Loader2 } from 'lucide-react';
